@@ -1,0 +1,22 @@
+.container{
+max-width:120px;
+margin:0 auto;
+padding:1.5em;
+}
+.menu{font-family:serif;
+font-size:15px;
+font-weight:bold;
+text-align:center;
+}
+.menu-group-heading{
+margin:0;
+padding-bottom:1em;
+
+border-bottom:3px solid red;
+}
+.menu-group{
+display:grid;
+grid-template-column:2fr;
+gap:1.7em;
+padding:1.5em 0;
+}
